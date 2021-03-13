@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract method &apos;public static String namePropose(State state)&apos; from &apos;hu.bme.mit.yakindu.analysis.workhere.Main.main()&apos; to &apos;hu.bme.mit.yakindu.analysis.workhere.Main&apos;&#x0A;- Original project: &apos;hu.bme.mit.yakindu.analysis&apos;&#x0A;- Method name: &apos;namePropose&apos;&#x0A;- Destination type: &apos;hu.bme.mit.yakindu.analysis.workhere.Main&apos;&#x0A;- Declared visibility: &apos;public&apos;" comments="false" description="Extract method &apos;namePropose&apos;" destination="0" exceptions="false" flags="786434" id="org.eclipse.jdt.ui.extract.method" input="/src&lt;hu.bme.mit.yakindu.analysis.workhere{Main.java" name="namePropose" replace="false" selection="1269 130" stamp="1615644393458" version="1.0" visibility="1"/>
+</session>
