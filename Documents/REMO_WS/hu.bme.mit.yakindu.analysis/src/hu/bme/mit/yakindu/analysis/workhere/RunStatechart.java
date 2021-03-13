@@ -22,21 +22,21 @@ public class RunStatechart {
 		while (true) {
 			line = scanner.nextLine();
 			switch (line) {
-			case "start":
-				s.raiseStart();
+			case "inditas":
+				s.raiseInditas();
 				s.runCycle();
 				print(s);
-				break;
-			case "white":
-				s.raiseWhite();
+			break;
+			case "red":
+				s.raiseRed();
 				s.runCycle();
 				print(s);
-				break;
-			case "black":
-				s.raiseBlack();
+			break;
+			case "blue":
+				s.raiseBlue();
 				s.runCycle();
 				print(s);
-				break;
+			break;
 			case "exit":
 				scanner.close();
 				print(s);
@@ -49,7 +49,7 @@ public class RunStatechart {
 	}
 
 	public static void print(IExampleStatemachine s) {
-		System.out.println("W = " + s.getSCInterface().getWhiteTime());
-		System.out.println("B = " + s.getSCInterface().getBlackTime());
-	}
+		System.out.println("B = " + s.getSCInterface().getBlueTime());
+		System.out.println("R = " + s.getSCInterface().getRedTime());
+		}
 }

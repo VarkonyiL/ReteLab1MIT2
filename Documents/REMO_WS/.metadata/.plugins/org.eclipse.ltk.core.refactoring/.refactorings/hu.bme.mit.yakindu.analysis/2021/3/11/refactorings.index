@@ -1,1 +1,5 @@
 1615644393458	Extract method 'namePropose'
+1615649440990	Extract method 'printWithVariables'
+1615650654257	Extract method 'printEndofRunstatechartMain'
+1615650679145	Extract method 'printStartofRunStatechart'
+1615650801815	Extract method 'printWithEvents'
